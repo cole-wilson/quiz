@@ -1,12 +1,9 @@
 ---
 layout: main
 title: I am winning
-permalink: /index.html
 ---
 
 hhihih
 {% for i in (1..999) %}
 <a href='myscreen{{i}}.png'><img src="myscreen{{i}}.png" width="200" height="200" alt="{{i}}"></a>
-{{ capture b }}{{ i | modulo: 3 }}{{ endcapture }}
-{% if b == "0" }}<br>{% endif %}
 {% endfor %}
