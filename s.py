@@ -1,6 +1,6 @@
 import os, time
 
-xc = 6
+xc = 16
 
 while True:
 	xc = (xc + 1)
