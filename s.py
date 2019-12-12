@@ -9,4 +9,4 @@ while True:
 	time.sleep(1)
 	if xc % 1 == 0:
 		print('pushing')
-		os.system('git add *;git commit * -m "Add Files";git push https://github.com/cole-wilson/quiz')
+		os.system('git add *;git commit * -m "Add Files";git push https://github.com/cole-wilson/quiz master')
