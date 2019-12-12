@@ -4,7 +4,7 @@ xc =4
 
 while True:
 	xc = (xc + 1)
-	os.system('echo screens: ' + str(xc) + '> _config.yml') 
+	os.system('echo screens: ' + str(xc) + ' > _config.yml') 
 	print(xc)
 	os.system('scrot myscreen' + str(xc) + '.png')
 	print('pushing')
